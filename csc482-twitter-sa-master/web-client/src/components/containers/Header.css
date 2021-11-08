@@ -1,0 +1,33 @@
+.Header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Search {
+  height: 100%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchTextBox {
+  height: 60%;
+  width: 40%;
+  border: 1px solid black;
+}
+
+.SearchButton {
+  height: 67%;
+  border: 1px solid black;
+}
+
+.SearchButton:hover {
+  background: white;
+  cursor: pointer;
+}
+
+.SearchTextBox:focus {
+  outline: none;
+  border: 1px solid #1DA1F2;
+}

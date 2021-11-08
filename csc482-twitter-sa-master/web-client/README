@@ -1,0 +1,4 @@
+npm install
+
+If there are dependency issues, remove @nivo/core and @nivo/line from
+package.json and run npm install, then add them back and npm install --force
